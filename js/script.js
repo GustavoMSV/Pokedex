@@ -29,6 +29,7 @@ const renderPokemon = async (pokemon) => {
         pokemonNumber.innerHTML = data.id;
         pokemonImage.src = data ['sprites']['versions']['generation-v']['black-white']['animated']['front_default'];
         input.value='';
+        searchPokemon = data.id;
     }else {
         pokemonImage.style.display = 'none';
         pokemonName.innerHTML = 'Não encontrado :('
@@ -42,11 +43,16 @@ form.addEventListener('submit', (event) => {
 });
 
 buttonPrev.addEventListener('click', () => {
-    alert('Anterior clicado');
+    if (searchPokemon > 1){
+        searchPokemon -= 1;
+        renderPokemon(searchPokemon);
+    }
+    
 });
 
 buttonNext.addEventListener('click', () => {
-    alert('Próximo clicado');
+    searchPokemon += 1;
+    renderPokemon(searchPokemon);
 });
 
 renderPokemon(searchPokemon);
