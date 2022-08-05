@@ -8,7 +8,7 @@
 ---
 
 ### Imagem Inicial Pokédex
-![pokedex_inicial](imagens/pokedex.PNG)
+![pokedex](imagens/pokedex.png)
 
 ---
 ### Imagem Final Pokédex
