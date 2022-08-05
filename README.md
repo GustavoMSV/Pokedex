@@ -8,11 +8,11 @@
 ---
 
 ### Imagem Inicial Pokédex
-<img src="D:\Hello World\gustavopokedex.github.io\imagens\pokedex.PNG" alt="pokedex"/>
+![pokedex_inicial](imagens/pokedex.PNG)
 
 ---
 ### Imagem Final Pokédex
-<img src="D:\Hello World\gustavopokedex.github.io\imagens\pokedex.final.PNG" alt="pokedex"/>
+![pokedex_final](imagens/pokedex.final.PNG)
 
 ---
 #### Neste area do código foram adicionadas as imagens dos pokemons, nome e numero através de uma API e  tambem tratamento de erro caso o numero e nome digitado estivessem errados
